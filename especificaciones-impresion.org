@@ -1,0 +1,122 @@
+* Reespirator23_Reespirator23_stp_1_conjunto_stp_1_empujador_stp_1 -ESPECIFICACIONES TÉCNICAS*
+
+Referente a la pala de presión para el respirador especificado, impreso
+en 3D, dentro de la crisis de *COVID-19*.
+
+El modelo a imprimir es una pieza para un mecanismo que ciertas empresas
+se encargarán de terminar.
+
+_Una unidad por persona, que se fabrique en *ABS, PLA, PETG* O
+materiales rígidos._
+
+*PARA COMENZAR A FABRICAR ES NECESARIO QUE LA MÁQUINA ESTÉ AJUSTADA Y
+PERFECTA*.
+
+*ESTAMOS HACIENDO UN PEQUEÑO TEST DE TOLERANCIAS QUE DEBERÁS PASAR PARA
+PODER HACER UNA PIEZA VÁLIDA para el Hospital.*
+
+*Tiene que poder pasar bien el cilindro por dentro del aro, sin quedar
+encajada y sin demasiada holgura). Tiene que mantenerse unida sin caerse
+y pasar con facilidad*.
+
+-->TEST:
+[[https://www.thingiverse.com/thing:1662342][/*https://www.thingiverse.com/thing:1662342*/]]
+
+El STL que estamos imprimiendo en este momento es este:
+
+[[https://www.dropbox.com/s/vp0pf0dl1p3n929/modificacion_2n.stl?dl=0][/https://www.dropbox.com/s/vp0pf0dl1p3n929/modificacion_2n.stl?dl=0/]]
+
+_PROTOCOLO:_
+
+Cada pieza impresa debe pasar los siguiente requisitos:
+
+1. Una vez sacada de la máquina 6 fotos en todos los ángulos posibles,
+   por mensaje privado a cada coordinador.
+
+2. El coordinador dará el visto bueno si se cumplen estos parámetros:
+
+   1. 0 roturas de capa
+
+   2. No desplazamientos de capas
+      
+   3. No falta de material en capas o visible.
+      
+   4. No rotura de continuidad de capa.
+      
+   5. No falta de flujo.
+      
+   6. Fallas estructurales graves o no graves.
+      
+
+3. Una vez comprobado dicho protocolo, se asignará un número de serie a
+   la pieza, la cual ira guardada en un archivo junto fecha de
+   fabricación y nombre del fabricante y grupo de trabajo.
+
+*-ESPECIFICACIONES TÉCNICAS------- PARÁMETROS DE IMPRESIÓN :*
+
+- infill: 20%
+- patrón de relleno: giroide( óptimo ) sino estuviera honeycomb
+- nº de perímetros: 3
+- capas inferior y superior: 4
+- altura de capa: 0.20
+- nozzle: 0.4mm
+
+*MATERIAL:*
+
+Cualquiera Rígido. *PLA , ABS, PETG*
+
+*AJUSTAD EXPANSIÓN HORIZONTAL AL VALOR QUE HABEIS TESTEADO EN LA PRUEBA
+DE EXPANSION*. 
+(valor orientativo -0.1mm. Podéis ir probando con pasos de
++-0.02 hasta encontrar la configuración que se adapte a vuestra
+impresora.
+
+/CURA: -> Perímetros>Expansión Horizontal -- en modo Avanzado/
+
+/PRUSA SLICER: --> config. impresión>Avanzado>compensación de tamaño XY/
+
+/REPETIER/SLICER: /
+
+*-PARA ELEGIR LA CARA SOBRE LA QUE VAMOS A ASENTAR LA PIEZA PARA
+IMPRIMIR:*
+
+CURA: herramienta Rotar, última opción, elegir cara de la pieza.
+
+PRUSA SLICER: pulsar F y elegir la cara.
+
+REPETIER/SLICER:
+
+SIMPLIFY: Ctrl+L y tocar la zona
+
+
+
+*-ESPECIFICACIONES LAMINADOR ---- ORIENTACIÓN DEL MODELO :*
+
+*-CURA*
+
+[[./images/cura-spec.png]]
+
+[[./images/cura-spec2.png]]
+
+
+*-PRUSA SLICER*
+
+[[./images/prusa-slicer1.png]]
+
+[[./images/prusa-slicer2.png]]
+
+[[./images/prusa-slicer3.png]]
+
+
+[[./images/prusa-pos.png]]
+
+[[./images/prusa-pos2.png]]
+
+
+*POSICIÓN CORRECTA*
+
+
+[[./images/true-pos.png]]
+
+[[./iamges/true-pos2.png]]
+
