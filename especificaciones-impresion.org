@@ -118,5 +118,5 @@ SIMPLIFY: Ctrl+L y tocar la zona
 
 [[./images/true-pos.png]]
 
-[[./iamges/true-pos2.png]]
+[[./images/true-pos2.png]]
 
